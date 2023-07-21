@@ -36,16 +36,16 @@ public class Medico {
     public Medico() {
     }
 
-    public Medico(int tarjetaProfesional, String nombre, String apellido, String consultorio, String correo,
-            Especialidad especialidad, List<Cita> citas) {
-        this.tarjetaProfesional = tarjetaProfesional;
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.consultorio = consultorio;
-        this.correo = correo;
-        this.especialidad = especialidad;
-        this.citas = citas;
-    }
+    // public Medico(int tarjetaProfesional, String nombre, String apellido, String consultorio, String correo,
+    //         Especialidad especialidad, List<Cita> citas) {
+    //     this.tarjetaProfesional = tarjetaProfesional;
+    //     this.nombre = nombre;
+    //     this.apellido = apellido;
+    //     this.consultorio = consultorio;
+    //     this.correo = correo;
+    //     this.especialidad = especialidad;
+    //     this.citas = citas;
+    // }
 
     public int getTarjetaProfesional() {
         return tarjetaProfesional;
