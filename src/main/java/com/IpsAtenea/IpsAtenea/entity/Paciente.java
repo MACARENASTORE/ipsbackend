@@ -13,14 +13,14 @@ import jakarta.persistence.OneToMany;
 public class Paciente {
 
     @Id
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long cedula;
 
     private String nombre;
     private String apellido;
     private LocalDate fechaDeNacimiento;
     private String telefono;
-    
+
     @OneToMany(mappedBy = "paciente")
     private List<Cita> citas;
 
@@ -84,5 +84,5 @@ public class Paciente {
     public void setCitas(List<Cita> citas) {
         this.citas = citas;
     }
-    
+
 }

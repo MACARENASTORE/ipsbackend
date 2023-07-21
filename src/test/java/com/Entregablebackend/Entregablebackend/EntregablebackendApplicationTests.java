@@ -1,4 +1,4 @@
-package com.IpsAtenea.IpsAtenea;
+package com.Entregablebackend.Entregablebackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
